@@ -4,6 +4,10 @@
       <stop offset="0%" style="stop-color:#00FFAA;stop-opacity:1" />
       <stop offset="100%" style="stop-color:#00CC88;stop-opacity:1" />
     </linearGradient>
+    <filter id="textGlow">
+      <feGaussianBlur stdDeviation="1" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
   </defs>
   
   <!-- Background -->
@@ -12,22 +16,50 @@
   <!-- Terminal-like border -->
   <rect x="2" y="2" width="596" height="116" fill="none" stroke="#30363d" stroke-width="1" rx="7"/>
   
-  <!-- Terminal dots -->
-  <circle cx="20" cy="15" r="5" fill="#FF5F56"/>
-  <circle cx="40" cy="15" r="5" fill="#FFBD2E"/>
-  <circle cx="60" cy="15" r="5" fill="#27C93F"/>
+  <!-- Terminal dots with hover effect -->
+  <circle cx="20" cy="15" r="5" fill="#FF5F56">
+    <animate attributeName="fill" values="#FF5F56;#FF8A80;#FF5F56" dur="2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="40" cy="15" r="5" fill="#FFBD2E">
+    <animate attributeName="fill" values="#FFBD2E;#FFE082;#FFBD2E" dur="2s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+  <circle cx="60" cy="15" r="5" fill="#27C93F">
+    <animate attributeName="fill" values="#27C93F;#69F0AE;#27C93F" dur="2s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
   
   <!-- Terminal title -->
   <text x="300" y="18" font-family="monospace" font-size="10" fill="#8b949e" text-anchor="middle">~/rbkhan007</text>
   
-  <!-- Typed text -->
-  <text x="30" y="45" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA">$ Hello World!</text>
-  <text x="30" y="65" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">I'm Rakibul Hasan</text>
-  <text x="30" y="85" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA">Senior Full-Stack Engineer &amp; DevOps Specialist</text>
-  <text x="30" y="105" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">UIU Computer Science Student</text>
+  <!-- Typed text with staggered reveal -->
+  <text x="30" y="45" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA" filter="url(#textGlow)">
+    <tspan opacity="0">$</tspan>
+    <tspan opacity="0"> Hello World!</tspan>
+    <animate attributeName="opacity" values="1" dur="0.5s" fill="freeze"/>
+  </text>
+  
+  <text x="30" y="65" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">
+    <tspan opacity="0">I'm Rakibul Hasan</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="0.5s" fill="freeze"/>
+  </text>
+  
+  <text x="30" y="85" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA" filter="url(#textGlow)">
+    <tspan opacity="0">Senior Full-Stack Engineer &amp; DevOps Specialist</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1s" fill="freeze"/>
+  </text>
+  
+  <text x="30" y="105" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">
+    <tspan opacity="0">UIU Computer Science Student</tspan>
+    <animate attributeName="opacity" values="0;1" dur="0.8s" begin="1.5s" fill="freeze"/>
+  </text>
   
   <!-- Blinking cursor -->
-  <rect x="250" y="108" width="8" height="14" fill="#00FFAA">
+  <rect x="250" y="92" width="8" height="14" fill="#00FFAA">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
+  
+  <!-- Subtle scanline effect -->
+  <line x1="0" y1="0" x2="600" y2="0" stroke="#00FFAA" stroke-width="1" opacity="0.05">
+    <animate attributeName="y1" values="0;120;0" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="y2" values="0;120;0" dur="8s" repeatCount="indefinite"/>
+  </line>
 </svg>

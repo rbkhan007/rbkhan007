@@ -14,21 +14,44 @@
   <!-- Background -->
   <rect width="900" height="100" fill="url(#footerBg)" rx="10"/>
   
-  <!-- Wave pattern -->
-  <path d="M0,30 Q150,10 300,30 T600,30 T900,30 L900,0 L0,0 Z" fill="#00FFAA" opacity="0.08"/>
-  <path d="M0,20 Q150,0 300,20 T600,20 T900,20 L900,0 L0,0 Z" fill="#FF00AA" opacity="0.06"/>
+  <!-- Animated wave pattern -->
+  <path d="M0,30 Q150,10 300,30 T600,30 T900,30 L900,0 L0,0 Z" fill="#00FFAA" opacity="0.08">
+    <animate attributeName="d" values="M0,30 Q150,10 300,30 T600,30 T900,30 L900,0 L0,0 Z;M0,25 Q150,5 300,35 T600,25 T900,35 L900,0 L0,0 Z;M0,30 Q150,10 300,30 T600,30 T900,30 L900,0 L0,0 Z" dur="4s" repeatCount="indefinite"/>
+  </path>
+  <path d="M0,20 Q150,0 300,20 T600,20 T900,20 L900,0 L0,0 Z" fill="#FF00AA" opacity="0.06">
+    <animate attributeName="d" values="M0,20 Q150,0 300,20 T600,20 T900,20 L900,0 L0,0 Z;M0,25 Q150,5 300,15 T600,25 T900,15 L900,0 L0,0 Z;M0,20 Q150,0 300,20 T600,20 T900,20 L900,0 L0,0 Z" dur="5s" repeatCount="indefinite"/>
+  </path>
   
-  <!-- Decorative circles -->
-  <circle cx="100" cy="50" r="15" fill="#00FFAA" opacity="0.15"/>
-  <circle cx="800" cy="50" r="15" fill="#FF00AA" opacity="0.15"/>
-  <circle cx="450" cy="50" r="20" fill="url(#footerGrad)" opacity="0.1"/>
+  <!-- Animated decorative circles -->
+  <circle cx="100" cy="50" r="15" fill="#00FFAA" opacity="0.15">
+    <animate attributeName="r" values="15;20;15" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.15;0.25;0.15" dur="3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="800" cy="50" r="15" fill="#FF00AA" opacity="0.15">
+    <animate attributeName="r" values="15;20;15" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+    <animate attributeName="opacity" values="0.15;0.25;0.15" dur="3s" repeatCount="indefinite" begin="1.5s"/>
+  </circle>
+  <circle cx="450" cy="50" r="20" fill="url(#footerGrad)" opacity="0.1">
+    <animate attributeName="r" values="20;25;20" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.1;0.2;0.1" dur="4s" repeatCount="indefinite"/>
+  </circle>
   
   <!-- Main text -->
-  <text x="450" y="45" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle">Crafting the Future of Web Development &amp; DevOps</text>
+  <text x="450" y="45" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#FFFFFF" text-anchor="middle" opacity="0">
+    Crafting the Future of Web Development &amp; DevOps
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze"/>
+  </text>
   
   <!-- Subtitle -->
-  <text x="450" y="65" font-family="monospace" font-size="11" fill="#00FFAA" text-anchor="middle" opacity="0.7">Engineered with ❤️, ☕, and robust build chains in Dhaka, Bangladesh</text>
+  <text x="450" y="65" font-family="monospace" font-size="11" fill="#00FFAA" text-anchor="middle" opacity="0">
+    Engineered with ❤️, ☕, and robust build chains in Dhaka, Bangladesh
+    <animate attributeName="opacity" values="0;1" dur="1s" fill="freeze" begin="0.5s"/>
+  </text>
   
-  <!-- Decorative line -->
-  <line x1="300" y1="75" x2="600" y2="75" stroke="url(#footerGrad)" stroke-width="1" opacity="0.3"/>
+  <!-- Animated decorative line -->
+  <line x1="300" y1="75" x2="600" y2="75" stroke="url(#footerGrad)" stroke-width="1" opacity="0">
+    <animate attributeName="opacity" values="0;0.3;0" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x1" values="300;320;300" dur="3s" repeatCount="indefinite"/>
+    <animate attributeName="x2" values="600;580;600" dur="3s" repeatCount="indefinite"/>
+  </line>
 </svg>
