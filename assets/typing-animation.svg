@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="600" height="120" viewBox="0 0 600 120">
+  <defs>
+    <linearGradient id="typingGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FFAA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00CC88;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="600" height="120" fill="#0D1117" rx="8"/>
+  
+  <!-- Terminal-like border -->
+  <rect x="2" y="2" width="596" height="116" fill="none" stroke="#30363d" stroke-width="1" rx="7"/>
+  
+  <!-- Terminal dots -->
+  <circle cx="20" cy="15" r="5" fill="#FF5F56"/>
+  <circle cx="40" cy="15" r="5" fill="#FFBD2E"/>
+  <circle cx="60" cy="15" r="5" fill="#27C93F"/>
+  
+  <!-- Terminal title -->
+  <text x="300" y="18" font-family="monospace" font-size="10" fill="#8b949e" text-anchor="middle">~/rbkhan007</text>
+  
+  <!-- Typed text -->
+  <text x="30" y="45" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA">$ Hello World!</text>
+  <text x="30" y="65" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">I'm Rakibul Hasan</text>
+  <text x="30" y="85" font-family="'Fira Code', monospace" font-size="14" fill="#00FFAA">Senior Full-Stack Engineer &amp; DevOps Specialist</text>
+  <text x="30" y="105" font-family="'Fira Code', monospace" font-size="14" fill="#FFFFFF">UIU Computer Science Student</text>
+  
+  <!-- Blinking cursor -->
+  <rect x="250" y="108" width="8" height="14" fill="#00FFAA">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+</svg>

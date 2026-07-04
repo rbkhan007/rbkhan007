@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="300" viewBox="0 0 800 300">
+  <defs>
+    <linearGradient id="activityGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#00FFAA;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#00FFAA;stop-opacity:0" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#00FFAA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF00AA;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="300" fill="#0D1117" rx="10"/>
+  
+  <!-- Border -->
+  <rect x="2" y="2" width="796" height="296" fill="none" stroke="#30363d" stroke-width="1" rx="9"/>
+  
+  <!-- Title -->
+  <text x="400" y="30" font-family="Arial, sans-serif" font-size="14" fill="#00FFAA" text-anchor="middle" font-weight="bold">Contribution Activity</text>
+  
+  <!-- Grid lines -->
+  <line x1="50" y1="50" x2="50" y2="250" stroke="#21262d" stroke-width="1"/>
+  <line x1="50" y1="250" x2="750" y2="250" stroke="#21262d" stroke-width="1"/>
+  <line x1="50" y1="150" x2="750" y2="150" stroke="#21262d" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="100" x2="750" y2="100" stroke="#21262d" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="50" y1="200" x2="750" y2="200" stroke="#21262d" stroke-width="1" stroke-dasharray="5,5"/>
+  
+  <!-- Activity bars -->
+  <g transform="translate(60, 0)">
+    <rect x="0" y="220" width="15" height="30" fill="#00FFAA" opacity="0.6" rx="2"/>
+    <rect x="25" y="200" width="15" height="50" fill="#00FFAA" opacity="0.7" rx="2"/>
+    <rect x="50" y="180" width="15" height="70" fill="#00FFAA" opacity="0.8" rx="2"/>
+    <rect x="75" y="210" width="15" height="40" fill="#00FFAA" opacity="0.6" rx="2"/>
+    <rect x="100" y="160" width="15" height="90" fill="#00FFAA" opacity="0.9" rx="2"/>
+    <rect x="125" y="190" width="15" height="60" fill="#00FFAA" opacity="0.7" rx="2"/>
+    <rect x="150" y="140" width="15" height="110" fill="#00FFAA" opacity="1" rx="2"/>
+    <rect x="175" y="170" width="15" height="80" fill="#00FFAA" opacity="0.8" rx="2"/>
+    <rect x="200" y="150" width="15" height="100" fill="#00FFAA" opacity="0.9" rx="2"/>
+    <rect x="225" y="130" width="15" height="120" fill="#00FFAA" opacity="1" rx="2"/>
+    <rect x="250" y="160" width="15" height="90" fill="#00FFAA" opacity="0.8" rx="2"/>
+    <rect x="275" y="120" width="15" height="130" fill="#00FFAA" opacity="1" rx="2"/>
+    <rect x="300" y="140" width="15" height="110" fill="#00FFAA" opacity="0.9" rx="2"/>
+    <rect x="325" y="100" width="15" height="150" fill="#FF00AA" opacity="1" rx="2"/>
+    <rect x="350" y="110" width="15" height="140" fill="#FF00AA" opacity="0.9" rx="2"/>
+    <rect x="375" y="90" width="15" height="160" fill="#FF00AA" opacity="1" rx="2"/>
+    <rect x="400" y="80" width="15" height="170" fill="#FF00AA" opacity="1" rx="2"/>
+    <rect x="425" y="100" width="15" height="150" fill="#FF00AA" opacity="0.9" rx="2"/>
+    <rect x="450" y="120" width="15" height="130" fill="#00FFAA" opacity="0.8" rx="2"/>
+    <rect x="475" y="140" width="15" height="110" fill="#00FFAA" opacity="0.7" rx="2"/>
+    <rect x="500" y="160" width="15" height="90" fill="#00FFAA" opacity="0.6" rx="2"/>
+    <rect x="525" y="180" width="15" height="70" fill="#00FFAA" opacity="0.5" rx="2"/>
+    <rect x="550" y="200" width="15" height="50" fill="#00FFAA" opacity="0.4" rx="2"/>
+    <rect x="575" y="190" width="15" height="60" fill="#00FFAA" opacity="0.5" rx="2"/>
+    <rect x="600" y="170" width="15" height="80" fill="#00FFAA" opacity="0.6" rx="2"/>
+    <rect x="625" y="150" width="15" height="100" fill="#00FFAA" opacity="0.7" rx="2"/>
+    <rect x="650" y="130" width="15" height="120" fill="#00FFAA" opacity="0.8" rx="2"/>
+  </g>
+  
+  <!-- Activity line -->
+  <polyline points="67,220 92,200 117,180 142,210 167,160 192,190 217,140 242,170 267,150 292,130 317,160 342,120 367,140 392,100 417,110 442,90 467,80 492,100 517,120 542,140 567,160 592,180 617,200 642,190 667,170 692,150" fill="none" stroke="url(#lineGrad)" stroke-width="2"/>
+  
+  <!-- Fill area under line -->
+  <path d="M67,220 L92,200 L117,180 L142,210 L167,160 L192,190 L217,140 L242,170 L267,150 L292,130 L317,160 L342,120 L367,140 L392,100 L417,110 L442,90 L467,80 L492,100 L517,120 L542,140 L567,160 L592,180 L617,200 L642,190 L667,170 L692,150 L692,250 L67,250 Z" fill="url(#activityGrad)"/>
+  
+  <!-- Y-axis labels -->
+  <text x="40" y="255" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">0</text>
+  <text x="40" y="205" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">5</text>
+  <text x="40" y="155" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">10</text>
+  <text x="40" y="105" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="end">15</text>
+  
+  <!-- X-axis labels -->
+  <text x="67" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">Jan</text>
+  <text x="192" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">Feb</text>
+  <text x="317" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">Mar</text>
+  <text x="442" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">Apr</text>
+  <text x="567" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">May</text>
+  <text x="692" y="270" font-family="Arial, sans-serif" font-size="9" fill="#8b949e" text-anchor="middle">Jun</text>
+  
+  <!-- Legend -->
+  <rect x="600" y="280" width="10" height="10" fill="#00FFAA" rx="2"/>
+  <text x="615" y="289" font-family="Arial, sans-serif" font-size="10" fill="#8b949e">Contributions</text>
+</svg>

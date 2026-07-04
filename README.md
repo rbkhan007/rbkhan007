@@ -1,18 +1,18 @@
 <div align="center">
 
   <!-- Header Image -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&text=Rakibul%20Hasan&fontSize=30&fontAlignY=50&desc=Senior%20Full-Stack%20Engineer%20%26%20DevOps%20Specialist&descAlignY=70&descSize=15&color=gradient_c6ffdd&animation=twinkling" />
+  <img src="assets/header.svg" alt="Rakibul Hasan - Senior Full-Stack Engineer & DevOps Specialist" />
 
   <!-- Dynamic Typing Animation Greeting -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&background=0D1117&center=true&vCenter=true&width=600&lines=Hello+World!;I'm+Rakibul+Hasan;Senior+Full-Stack+Engineer+%26+DevOps+Specialist;UIU+Computer+Science+Student;Crafting+Scalable+Web+Magic" alt="Typing Animation" />
+  <img src="assets/typing-animation.svg" alt="Hello World! I'm Rakibul Hasan" />
 
   <!-- Animated Terminal Intro -->
   <div align="center">
-    <img src="https://readme-terminal.vercel.app/api?username=rbkhan007&theme=tokyonight&font=Fira+Code&width=600&height=200&duration=1000" alt="Terminal Intro" />
+    <img src="assets/terminal-intro.svg" alt="Terminal Intro" />
   </div>
 
   <!-- Wavy Divider -->
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn&fontAlignY=80&fontSize=20&descAlignY=50&descAlign=60&desc=Crafting%20the%20Future%20of%20Web%20Development%20%26%20DevOps" />
+  <img src="assets/header.svg" alt="Crafting the Future of Web Development & DevOps" style="transform: scaleY(-1); opacity: 0.5;" />
 
 </div>
 
@@ -33,7 +33,7 @@
       </ul>
     </td>
     <td width="40%" valign="center" align="center">
-      <img src="https://github-readme-stats.vercel.app/api?username=rbkhan007&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFAA&icon_color=FF00AA&text_color=FFFFFF" alt="GitHub Stats" width="100%" />
+      <img src="assets/github-stats.svg" alt="GitHub Stats" width="100%" />
     </td>
   </tr>
 </table>
@@ -65,48 +65,18 @@
 ## 📊 Technical Capabilities Index
 
 <div align="center">
-  <table style="width:100%; max-width:750px; border:none;">
+  <table width="100%">
     <tr>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>Next.js & App Router</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#00FFAA,#00CC88); height:8px; border-radius:5px; width:95%;"></div>
-        </div>
-      </td>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>TypeScript Architecture</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#00FFAA,#00CC88); height:8px; border-radius:5px; width:92%;"></div>
-        </div>
-      </td>
+      <td width="50%"><img src="assets/skills-nextjs.svg" alt="Next.js 95%" /></td>
+      <td width="50%"><img src="assets/skills-typescript.svg" alt="TypeScript 92%" /></td>
     </tr>
     <tr>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>Database Architecture (Postgres + Prisma)</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#00FFAA,#00CC88); height:8px; border-radius:5px; width:90%;"></div>
-        </div>
-      </td>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>3D WebGraphics (Three.js Engine)</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#FF00AA,#CC0088); height:8px; border-radius:5px; width:80%;"></div>
-        </div>
-      </td>
+      <td width="50%"><img src="assets/skills-database.svg" alt="Database 90%" /></td>
+      <td width="50%"><img src="assets/skills-threejs.svg" alt="Three.js 80%" /></td>
     </tr>
     <tr>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>DevOps & Automated CI/CD Pipelines</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#00FFAA,#00CC88); height:8px; border-radius:5px; width:90%;"></div>
-        </div>
-      </td>
-      <td width="50%" style="border:none; padding:10px;">
-        <b>Optimization, Security & Bug Squashing</b>
-        <div style="background:#222; height:8px; border-radius:5px; width:100%; margin-top:4px;">
-          <div style="background:linear-gradient(90deg,#FF00AA,#CC0088); height:8px; border-radius:5px; width:98%;"></div>
-        </div>
-      </td>
+      <td width="50%"><img src="assets/skills-devops.svg" alt="DevOps 90%" /></td>
+      <td width="50%"><img src="assets/skills-optimization.svg" alt="Optimization 98%" /></td>
     </tr>
   </table>
 </div>
@@ -119,12 +89,12 @@
   <table style="border:none;">
     <tr>
       <td align="center" valign="top" style="border:none;">
-        <img height="180" src="https://streak-stats.demolab.com?user=rbkhan007&theme=radical&hide_border=true&background=0D1117&stroke=00FFAA&ring=FF00AA&fire=00FFAA" alt="Streak Stats" />
+        <img height="180" src="assets/streak-stats.svg" alt="Streak Stats" />
       </td>
     </tr>
     <tr>
       <td align="center" valign="top" style="border:none; padding-top:15px;">
-        <img width="100%" max-width="800" src="https://github-readme-activity-graph.vercel.app/graph?username=rbkhan007&theme=radical&hide_border=true&bg_color=0D1117&color=00FFAA&point=FF00AA" alt="Activity Graph" />
+        <img width="100%" max-width="800" src="assets/activity-graph.svg" alt="Activity Graph" />
       </td>
     </tr>
   </table>
@@ -135,7 +105,7 @@
 ## 🧰 Top Languages Used
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbkhan007&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00FFAA&icon_color=FF00AA&text_color=FFFFFF" alt="Top Langs" />
+  <img src="assets/top-languages.svg" alt="Top Langs" />
 </div>
 
 ---
@@ -143,26 +113,7 @@
 ## 📦 DevOps & Full-Stack Workflow Diagram
 
 <div align="center">
-
-```mermaid
-graph TD
-    A[Code Push] --> B[GitHub Actions CI]
-    B --> C[Lint & Test]
-    C --> D{Tests Pass?}
-    D -->|Yes| E[Build Docker Image]
-    D -->|No| F[Notify Developer]
-    E --> G[Push to Registry]
-    G --> H[Deploy to Vercel/Cloud]
-    H --> I[Production Ready]
-    
-    style A fill:#00FFAA,stroke:#00CC88,color:#0D1117
-    style B fill:#2088FF,stroke:#1565C0,color:#fff
-    style C fill:#3178C6,stroke:#1A5276,color:#fff
-    style E fill:#2496ED,stroke:#1565C0,color:#fff
-    style H fill:#000,stroke:#666,color:#fff
-    style I fill:#00FFAA,stroke:#00CC88,color:#0D1117
-```
-
+  <img src="assets/devops-workflow.svg" alt="DevOps Workflow Diagram" width="100%" />
 </div>
 
 ### 🔥 Active Repositories
@@ -197,7 +148,7 @@ graph TD
 
 <div align="center">
   <!-- GitHub Trophies -->
-  <img src="https://github-profile-trophy.vercel.app/?username=rbkhan007&theme=radical&no-frame=true&margin-w=15&margin-h=15" alt="GitHub Trophies" />
+  <img src="assets/github-trophies.svg" alt="GitHub Trophies" />
 </div>
 
 ---
@@ -220,13 +171,13 @@ graph TD
 
   <br><br>
 
-  <img src="https://komarev.com/ghpvc/?username=rbkhan007&color=blueviolet&style=flat-square" alt="Profile Views" />
+  <img src="assets/profile-views.svg" alt="Profile Views" />
 </div>
 
 ---
 
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn&fontAlignY=80&fontSize=20&descAlignY=50&descAlign=60&desc=Engineered%20with%20%E2%9D%A4%EF%B8%8F,%20%E2%98%95,%20and%20robust%20build%20chains%20in%20Dhaka,%20Bangladesh" />
+  <img src="assets/footer.svg" alt="Crafting the Future of Web Development & DevOps" />
 </p>
 
 <p align="center">

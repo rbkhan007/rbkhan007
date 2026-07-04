@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="450" height="180" viewBox="0 0 450 180">
+  <defs>
+    <linearGradient id="streakGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0D1117;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="450" height="180" fill="url(#streakGrad)" rx="10"/>
+  
+  <!-- Border -->
+  <rect x="2" y="2" width="446" height="176" fill="none" stroke="#30363d" stroke-width="1" rx="9"/>
+  
+  <!-- Title -->
+  <text x="225" y="30" font-family="Arial, sans-serif" font-size="14" fill="#FF00AA" text-anchor="middle" font-weight="bold">GitHub Streak</text>
+  
+  <!-- Current Streak -->
+  <text x="150" y="70" font-family="Arial, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Current Streak</text>
+  <text x="150" y="95" font-family="Arial, sans-serif" font-size="24" fill="#00FFAA" text-anchor="middle" font-weight="bold">0</text>
+  <text x="150" y="110" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">days</text>
+  
+  <!-- Longest Streak -->
+  <text x="300" y="70" font-family="Arial, sans-serif" font-size="11" fill="#8b949e" text-anchor="middle">Longest Streak</text>
+  <text x="300" y="95" font-family="Arial, sans-serif" font-size="24" fill="#FF00AA" text-anchor="middle" font-weight="bold">0</text>
+  <text x="300" y="110" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">days</text>
+  
+  <!-- Divider -->
+  <line x1="225" y1="50" x2="225" y2="120" stroke="#30363d" stroke-width="1"/>
+  
+  <!-- Contribution Graph -->
+  <text x="225" y="145" font-family="Arial, sans-serif" font-size="10" fill="#8b949e" text-anchor="middle">160+ contributions in the last year</text>
+  
+  <!-- Activity dots -->
+  <g transform="translate(70, 155)">
+    <rect x="0" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="10" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="20" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="30" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="40" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="50" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="60" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="70" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="80" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="90" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="100" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="110" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="120" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="130" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="140" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="150" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="160" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="170" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="180" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="190" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="200" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="210" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="220" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="230" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="240" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="250" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="260" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="270" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="280" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+    <rect x="290" y="0" width="6" height="6" fill="#0D1117" rx="1"/>
+  </g>
+</svg>
