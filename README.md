@@ -4,35 +4,12 @@
   <img src="https://capsule-render.vercel.app/api?type=waving&height=150&section=header&text=Rakibul%20Hasan&fontSize=30&fontAlignY=50&desc=Senior%20Full-Stack%20Engineer%20%26%20DevOps%20Specialist&descAlignY=70&descSize=15&color=gradient_c6ffdd&animation=twinkling" />
 
   <!-- Dynamic Typing Animation Greeting -->
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&background=0D1117&center=true&vCenter=true&width=600&lines=👋+Hello+World!;I'm+Rakibul+Hasan;Senior+Full-Stack+Engineer+%26+DevOps+Specialist;UIU+Computer+Science+Student;Crafting+Scalable+Web+Magic+✨" alt="Typing Animation" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&background=0D1117&center=true&vCenter=true&width=600&lines=Hello+World!;I'm+Rakibul+Hasan;Senior+Full-Stack+Engineer+%26+DevOps+Specialist;UIU+Computer+Science+Student;Crafting+Scalable+Web+Magic" alt="Typing Animation" />
 
   <!-- Animated Terminal Intro -->
   <div align="center">
     <img src="https://readme-terminal.vercel.app/api?username=rbkhan007&theme=tokyonight&font=Fira+Code&width=600&height=200&duration=1000" alt="Terminal Intro" />
   </div>
-
-  <!-- Interactive Running Cat Mini-Game Block -->
-  <div id="cat-container" style="position:relative; height:100px; width:100%; max-width:800px; overflow:hidden; margin:15px auto; background:linear-gradient(180deg, rgba(13,17,23,0) 0%, #0D1117 100%); border: 1px solid rgba(0,255,170,0.15); border-radius:12px;">
-    <div id="cat" style="position:absolute; font-size:50px; cursor:pointer; bottom:10px; left:10%; user-select:none; -webkit-user-select:none;">🐈</div>
-  </div>
-
-  <script>
-    (() => {
-      const cat = document.getElementById('cat');
-      let direction = 1;
-      let pos = 10;
-      setInterval(() => {
-        pos += direction * 1.5;
-        if (pos >= 88 || pos <= 5) direction *= -1;
-        cat.style.left = pos + '%';
-        cat.style.transform = `scaleX(${direction})`;
-      }, 45);
-      cat.addEventListener('click', () => {
-        cat.style.transform = `scaleX(${direction}) scaleY(0.5) translateY(-40px)`;
-        setTimeout(() => { cat.style.transform = `scaleX(${direction})`; }, 250);
-      });
-    })();
-  </script>
 
   <!-- Wavy Divider -->
   <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&animation=fadeIn&fontAlignY=80&fontSize=20&descAlignY=50&descAlign=60&desc=Crafting%20the%20Future%20of%20Web%20Development%20%26%20DevOps" />
@@ -142,7 +119,7 @@
   <table style="border:none;">
     <tr>
       <td align="center" valign="top" style="border:none;">
-        <img height="180" src="https://github-readme-streak-stats.herokuapp.com/?user=rbkhan007&theme=radical&hide_border=true&background=0D1117&stroke=00FFAA&ring=FF00AA&fire=00FFAA" alt="Streak Stats" />
+        <img height="180" src="https://streak-stats.demolab.com?user=rbkhan007&theme=radical&hide_border=true&background=0D1117&stroke=00FFAA&ring=FF00AA&fire=00FFAA" alt="Streak Stats" />
       </td>
     </tr>
     <tr>
@@ -166,7 +143,26 @@
 ## 📦 DevOps & Full-Stack Workflow Diagram
 
 <div align="center">
-  <img src="https://mermaid.ink/img/pako:eNptUsFuwjAM_RUTDru0IjT0VEAp2FEvq3TbKbXGJY5o1SpVifv7k5AWUEmQ8vL7-Z0Xr3kLZ9FVLeMNc9JrOzDeNLpRjPedMQ1zo9G9Yrw3pmG80bpnvNGqY7zVqmO806pjvNOqZ7xXqmNcy3nDuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy3nHuJbzjnEt5x3jWs47xrWcd4xrOe8Y13LeMa7lvGNcy......?theme=dark&width=600" alt="DevOps Workflow Diagram" />
+
+```mermaid
+graph TD
+    A[Code Push] --> B[GitHub Actions CI]
+    B --> C[Lint & Test]
+    C --> D{Tests Pass?}
+    D -->|Yes| E[Build Docker Image]
+    D -->|No| F[Notify Developer]
+    E --> G[Push to Registry]
+    G --> H[Deploy to Vercel/Cloud]
+    H --> I[Production Ready]
+    
+    style A fill:#00FFAA,stroke:#00CC88,color:#0D1117
+    style B fill:#2088FF,stroke:#1565C0,color:#fff
+    style C fill:#3178C6,stroke:#1A5276,color:#fff
+    style E fill:#2496ED,stroke:#1565C0,color:#fff
+    style H fill:#000,stroke:#666,color:#fff
+    style I fill:#00FFAA,stroke:#00CC88,color:#0D1117
+```
+
 </div>
 
 ### 🔥 Active Repositories
@@ -218,7 +214,7 @@
   <a href="https://twitter.com/Rakibulhas35269">
     <img src="https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=for-the-badge" alt="X (Twitter)" />
   </a>
-  <a href="mailto:rakibul.hasan.cs.uiu@gmail.com">
+  <a href="mailto:rbkhan00009@gmail.com">
     <img src="https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge" alt="Gmail" />
   </a>
 
