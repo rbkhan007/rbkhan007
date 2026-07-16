@@ -37,6 +37,7 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 - 🧠 **Focus:** RAG pipelines, LLM orchestration, API gateways, enterprise auth & security
 - 🚀 **Currently:** Building **OllamoMUI**, an AI gateway emulating Ollama/OpenAI APIs
 - 💼 **Looking for:** Full-Time Full-Stack / AI Engineering roles, DevOps automation, and high-scale contracts
+- 📚 **Learning:** Agentic workflows, Edge AI, WebGPU, and advanced Kubernetes
 
     </td>
     <td width="38%" align="center">
@@ -46,6 +47,19 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 </td>
   </tr>
 </table>
+
+<br/>
+
+## 📚 Currently Learning
+
+<div align="center">
+
+![Agentic Workflows](https://img.shields.io/badge/Agentic%20Workflows-00FFAA?style=for-the-badge&logo=openai&logoColor=white)
+![Edge AI](https://img.shields.io/badge/Edge%20AI-2088FF?style=for-the-badge&logo=react&logoColor=white)
+![WebGPU](https://img.shields.io/badge/WebGPU-FF00AA?style=for-the-badge&logo=webgpu&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+
+</div>
 
 <br/>
 
@@ -288,6 +302,24 @@ flowchart LR
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbkhan007&layout=compact&theme=transparent&hide_border=true&title_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="Top Languages" />
 </div>
 <!-- STATS:END -->
+
+<br/>
+
+### 🐍 Contribution Snake
+
+<div align="center">
+  <img src="assets/snake.svg" alt="Contribution Snake" width="100%" />
+</div>
+
+<br/>
+
+### 🌍 Visitor Map
+
+<div align="center">
+  <img src="https://visitcount.itsvg.in/?badge=1&icon=3&color=00FFAA&label=Visitors&style=flat-square" alt="Visitor Map" />
+  <br/><br/>
+  <img src="assets/profile-views.svg" alt="Profile Views" />
+</div>
 
 <div align="center">
   <table width="100%">
