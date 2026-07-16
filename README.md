@@ -1,25 +1,21 @@
 <div align="center">
 
   <!-- Header Image -->
-  <img src="assets/header.svg" alt="Rakibul Hasan - Senior Full-Stack Engineer & DevOps Specialist" width="100%" />
+  <img src="assets/header.svg" alt="Rakibul Hasan — Full-Stack Developer & AI/LLM Specialist" width="100%" />
 
-  <!-- Spacing -->
   <br/><br/>
 
   <!-- Typing Animation -->
   <img src="assets/typing-animation.svg" alt="Hello World! I'm Rakibul Hasan" width="600" />
 
-  <!-- Spacing -->
   <br/>
 
   <!-- Terminal Intro -->
   <img src="assets/terminal-intro.svg" alt="Terminal Intro" width="600" />
 
-  <!-- Spacing -->
   <br/>
 
-  <!-- Wavy Divider -->
-  <img src="assets/header.svg" alt="" width="100%" style="opacity: 0.3;" />
+  <img src="assets/header.svg" alt="" width="100%" style="opacity: 0.25;" />
 
 </div>
 
@@ -32,7 +28,7 @@
 ## About Me
 
 <div align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&background=0D1117&center=true&vCenter=true&width=600&lines=Senior+Full-Stack+Engineer+%26+DevOps+Specialist;UIU+Computer+Science+Student;Crafting+Scalable+Web+Magic" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=00FFAA&background=0D1117&center=true&vCenter=true&width=600&lines=Rhasan%40dev+%7C+Full-Stack+Developer;AI%2FLLM+Systems+%26+API+Orchestration;Cross-Platform+Product+Architect;UIU+Computer+Science+Student" alt="Typing SVG" />
 </div>
 
 <br/>
@@ -41,15 +37,15 @@
   <tr>
     <td width="60%" valign="top">
 
-### 👨‍💻 Senior Full-Stack Engineer & DevOps Specialist
+### 👨‍💻 Full-Stack Developer & AI/LLM Specialist
 
-Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, real-time architectures, pixel-perfect user interfaces, bulletproof database structures, and scalable DevOps pipelines.
+Based in **Dhaka, Bangladesh**. I'm a results-driven engineer who architects production-grade software from **database schema to polished UI**. I specialize in AI/LLM systems, API orchestration, and cross-platform product design, with a strong focus on security, performance, and scalable DevOps practices.
 
-**🎓 Academic Background:** Computer Science & Engineering Student at **United International University (UIU)**, bridging solid computer science theory with massive real-world software applications.
+**🎓 Academic Background:** B.Sc. in Computer Science & Engineering at **United International University (UIU)**.
 
-- 🔥 **Current Momentum**: 160+ tactical commits in the last year across active repositories.
-- 🔧 **Core Strategy**: Enterprise-grade optimization, clean design patterns, rapid feature delivery, and robust CI/CD automation.
-- 💼 **Open For**: Full-Time Senior Full-Stack Roles, DevOps Integrations, AI Integrations, & High-Scale Contracts.
+- 🔥 **Current Momentum**: Building AI gateway systems, multi-platform clients, and secure SaaS products.
+- 🧠 **Core Focus**: RAG pipelines, LLM orchestration, API gateways, enterprise-grade authentication & security.
+- 💼 **Open For**: Full-Stack Roles, AI/LLM Integrations, DevOps Automation & High-Scale Contracts.
 
     </td>
     <td width="40%" align="center">
@@ -73,20 +69,25 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 **Frontend Core**
 
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
+![React Native](https://img.shields.io/badge/React_Native-61DAFB?logo=react&logoColor=black&style=for-the-badge)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
 ![Three.js](https://img.shields.io/badge/Three.js-black?logo=three.js&logoColor=white&style=for-the-badge)
 
 **Backend & Database**
 
-![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=for-the-badge)
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge)
+![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge)
+![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=for-the-badge)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?logo=prisma&logoColor=white&style=for-the-badge)
 
-**DevOps & Deployment**
+**AI & DevOps**
 
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=for-the-badge)
+![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
 
 </div>
@@ -122,6 +123,39 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 
 <br/>
 
+## 💼 Experience
+
+<div align="center">
+
+<table width="100%">
+  <tr>
+    <td align="left" width="100%" style="border:1px solid #30363d; border-radius:8px; padding:14px;">
+
+**🚀 Founder & Lead Developer — OllamoMUI** &nbsp;*`2025 — Present`*
+<ul align="left">
+  <li>Built an AI gateway emulating Ollama/OpenAI APIs with RAG (pgvector / pg_trgm).</li>
+  <li>Shipped multi-platform clients (Web, Desktop, Mobile) on a single backend.</li>
+  <li>Enforced enterprise security: PBKDF2 auth, SSRF protection, audit logging.</li>
+</ul>
+
+**💻 Full-Stack Developer (Freelance)** &nbsp;*`2024 — Present`*
+<ul align="left">
+  <li>Delivered production web apps & AI integrations for global clients.</li>
+  <li>Developed RESTful services, real-time dashboards, and secure auth flows.</li>
+</ul>
+
+    </td>
+  </tr>
+</table>
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
 ## 📈 Activity & Analytics
 
 <div align="center">
@@ -148,11 +182,41 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 
 <br/>
 
-## 📦 DevOps Workflow
+## 🌟 Selected Projects
 
-<div align="center">
-  <img src="assets/devops-workflow.svg" alt="DevOps Workflow Diagram" width="100%" />
-</div>
+<table align="center" width="100%">
+  <tr>
+    <td align="center" width="33%" padding="14">
+
+**🎓 GradBridge**
+
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/GradBridge)
+[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://grad-bridge-beta.vercel.app/)
+
+<sub>Education platform · Next.js · Supabase</sub>
+
+    </td>
+    <td align="center" width="33%" padding="14">
+
+**🎯 SiteSniper-AI**
+
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/SiteSniper-AI)
+
+<sub>AI web analysis · Python · FastAPI</sub>
+
+    </td>
+    <td align="center" width="33%" padding="14">
+
+**🖼️ ClippingBD Studio**
+
+[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/ClippingBD-Studio)
+[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://clippingbdstudio.vercel.app/)
+
+<sub>Studio platform · Next.js · Vercel</sub>
+
+    </td>
+  </tr>
+</table>
 
 <br/>
 
@@ -160,6 +224,7 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 
 | Repository | Description |
 |:-----------|:------------|
+| 🤖 [OllamoMUI](https://github.com/rbkhan007/OllamoMUI) | AI gateway emulating Ollama/OpenAI APIs with RAG (pgvector) |
 | 🚀 [Nexus-Crypto-Ventory](https://github.com/rbkhan007/Nexus-Crypto-Ventory) | Advanced crypto assets & inventory management framework |
 | 🤖 [Rag-Optimized-F-Commerce-SAAS](https://github.com/rbkhan007/Rag-Optimized-F-Commerce-SAAS) | RAG-driven AI system for high-volume Facebook commerce |
 | 🛍️ [VeloCommerce-AI](https://github.com/rbkhan007/VeloCommerce-AI) | AI engine tailored for dynamic web marketplace conversions |
@@ -170,39 +235,11 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 
 <br/>
 
-## 🌟 Featured Projects
+## 📦 DevOps Workflow
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%" padding="20">
-
-**🤖 VeloCommerce AI**
-
-[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://velo-commerce-ai.vercel.app/)
-
-<sub>Next.js 14 • Supabase • OpenAI</sub>
-
-    </td>
-    <td align="center" width="33%" padding="20">
-
-**💳 Nexus Crypto**
-
-[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://nexus-crypto-ventory.vercel.app/)
-
-<sub>TypeScript • Prisma • PostgreSQL</sub>
-
-    </td>
-    <td align="center" width="33%" padding="20">
-
-**✨ Portfolio**
-
-[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://rhasan-dev-bd-com.vercel.app/)
-
-<sub>Three.js • Tailwind CSS • Vercel</sub>
-
-    </td>
-  </tr>
-</table>
+<div align="center">
+  <img src="assets/devops-workflow.svg" alt="DevOps Workflow Diagram" width="100%" />
+</div>
 
 <br/>
 
@@ -226,10 +263,11 @@ Based in **Dhaka, Bangladesh**. I specialize in engineering high-performance, re
 
 <div align="center">
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=google-chrome&logoColor=white&style=for-the-badge)](https://rhasan-dev-bd-com.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?logo=google-chrome&logoColor=white&style=for-the-badge)](https://ollamomui.vercel.app/)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?logo=linkedin&logoColor=white&style=for-the-badge)](https://www.linkedin.com/in/rakibul-hasan-khan-uiu/)
 [![X (Twitter)](https://img.shields.io/badge/X-000000?logo=x&logoColor=white&style=for-the-badge)](https://twitter.com/Rakibulhas35269)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?logo=gmail&logoColor=white&style=for-the-badge)](mailto:rbkhan00009@gmail.com)
+[![Phone](https://img.shields.io/badge/Phone-%2B8801774471120-25D366?style=for-the-badge&logo=whatsapp&logoColor=white)](tel:+8801774471120)
 
 <br/>
 
