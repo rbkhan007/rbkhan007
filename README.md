@@ -1,10 +1,7 @@
 <div align="center">
 
+  <!-- TUI terminal hero -->
   <img src="assets/header.svg" alt="Rakibul Hasan — Full-Stack Developer & AI/LLM Specialist" width="100%" />
-
-  <br/>
-
-  <img src="assets/typing-animation.svg" alt="Hello, I'm Rakibul Hasan" width="600" />
 
   <br/>
 
@@ -17,10 +14,6 @@
   <br/><br/>
 
   <img src="assets/terminal-intro.svg" alt="Terminal Intro" width="600" />
-
-  <br/>
-
-  <img src="assets/header.svg" alt="" width="100%" style="opacity: 0.2;" />
 
 </div>
 
