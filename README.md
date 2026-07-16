@@ -298,7 +298,8 @@ flowchart LR
 <div align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=rbkhan007&show_icons=true&theme=transparent&hide_border=true&title_color=00FFAA&icon_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="GitHub Stats" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rbkhan007&theme=dark&hide_border=true&background=0D1117&stroke=00FFAA&ring=00FFAA&fire=FF00AA&currStreakNum=00FFAA&sideNums=00FFAA&dates=8b949e" alt="Streak Stats" />
-  <img src="https://github-profile-trophy.vercel.app/?username=rbkhan007&theme=transparent&no-bg=true&no-frame=true&title=Stars,Commits,Repositories,PullRequest,Reviews,Followers" alt="GitHub Trophies" />
+  <img src="https://img.shields.io/github/followers/rbkhan007?style=for-the-badge&logo=github&label=Followers&color=00FFAA" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/rbkhan007?style=for-the-badge&logo=github&label=Total%20Stars&color=FFD700" alt="Stars" />
   <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbkhan007&layout=compact&theme=transparent&hide_border=true&title_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="Top Languages" />
 </div>
 <!-- STATS:END -->
@@ -355,7 +356,14 @@ flowchart LR
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=rbkhan007&theme=transparent&no-bg=true&no-frame=true&margin-w=10" alt="GitHub Trophies" />
+
+[![Followers](https://img.shields.io/github/followers/rbkhan007?style=for-the-badge&logo=github&label=Followers&color=00FFAA)](https://github.com/rbkhan007?tab=followers)
+[![Total Stars](https://img.shields.io/github/stars/rbkhan007?style=for-the-badge&logo=github&label=Total%20Stars&color=FFD700)](https://github.com/rbkhan007?tab=repositories&sort=stargazers)
+[![Commits/Week](https://img.shields.io/github/commit-activity/t/rbkhan007?style=for-the-badge&logo=git&label=Commits%2FWeek&color=2088FF)](https://github.com/rbkhan007?tab=repositories)
+[![Public Repos](https://img.shields.io/github/repo-size/rbkhan007/rbkhan007?style=for-the-badge&logo=github&label=Repo%20Size&color=FF00AA)](https://github.com/rbkhan007/rbkhan007)
+[![Last Commit](https://img.shields.io/github/last-commit/rbkhan007/rbkhan007?style=for-the-badge&logo=git&label=Last%20Commit&color=00CC88)](https://github.com/rbkhan007/rbkhan007)
+[![Open Issues](https://img.shields.io/github/issues/rbkhan007?style=for-the-badge&logo=github&label=Open%20Issues&color=FF6B6B)](https://github.com/rbkhan007?tab=issues)
+
 </div>
 
 <br/>
