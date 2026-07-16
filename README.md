@@ -238,7 +238,69 @@ Based in **Dhaka, Bangladesh**. I'm a results-driven engineer who architects pro
 ## 📦 DevOps Workflow
 
 <div align="center">
-  <img src="assets/devops-workflow.svg" alt="DevOps Workflow Diagram" width="100%" />
+
+```mermaid
+flowchart LR
+  subgraph DEV[👨‍💻 Local Development]
+    A([Code Push]):::node
+    B[[GitHub Repository]]:::node
+  end
+
+  subgraph CI[⚙️ CI Pipeline]
+    C[[GitHub Actions]]:::node --> D{Lint & Test Pass?}
+    D -->|No| E([Notify Developer]):::fail
+    D -->|Yes| F[[Build Docker Image]]:::node
+  end
+
+  subgraph CD[🚀 CD Pipeline]
+    G[[Push to Registry]]:::node --> H[[Deploy to Vercel / Cloud]]:::node
+    H --> I([Production Ready]):::ok
+  end
+
+  A --> B --> C
+  F --> G
+  I -.->|Telemetry & Rollback| A
+
+  classDef node fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef ok fill:#003b2e,stroke:#00FFAA,stroke-width:2px,color:#fff;
+  classDef fail fill:#3b0000,stroke:#FF6B6B,stroke-width:2px,color:#fff;
+```
+
+</div>
+
+<br/>
+
+### 🧩 System Architecture
+
+<div align="center">
+
+```mermaid
+flowchart TB
+  Client[[Web / Desktop / Mobile Client]]:::c
+
+  subgraph GW[🌐 API Gateway · OllamoMUI]
+    Auth[[PBKDF2 Auth + RBAC]]:::n --> API[[Ollama / OpenAI-compatible API]]:::n
+    API --> RAG[[RAG Pipeline]]:::n
+  end
+
+  subgraph DATA[🗄️ Data Layer]
+    PG[(PostgreSQL + pgvector)]:::d
+    TRG[(pg_trgm Search)]:::d
+    Cache[(Redis Cache)]:::d
+  end
+
+  Client -->|HTTPS| Auth
+  RAG --> PG
+  RAG --> TRG
+  API --> Cache
+  GW -->|SSRF-protected fetch| LLM{{External LLM Provider}}:::ext
+
+  classDef c fill:#0D1117,stroke:#58a6ff,stroke-width:2px,color:#58a6ff;
+  classDef n fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef d fill:#101a2b,stroke:#2088FF,stroke-width:2px,color:#9ECE6A;
+  classDef ext fill:#1a1b26,stroke:#FF00AA,stroke-width:2px,color:#FF9E64;
+```
+
 </div>
 
 <br/>
