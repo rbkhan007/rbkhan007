@@ -296,11 +296,14 @@ flowchart LR
 
 <!-- STATS:START -->
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=rbkhan007&show_icons=true&theme=transparent&hide_border=true&title_color=00FFAA&icon_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://img.shields.io/github/followers/rbkhan007?style=for-the-badge&logo=github&label=Followers&color=00FFAA" alt="Followers" />
+  <img src="https://img.shields.io/github/stars/rbkhan007?style=for-the-badge&logo=github&label=Total%20Stars&color=FFD700" alt="Stars" />
+  <img src="https://img.shields.io/github/commit-activity/t/rbkhan007?style=for-the-badge&logo=git&label=Commits%2FWeek&color=2088FF" alt="Commits/Week" />
+  <img src="https://img.shields.io/github/repo-size/rbkhan007/rbkhan007?style=for-the-badge&logo=github&label=Repo%20Size&color=FF00AA" alt="Repo Size" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=rbkhan007&theme=dark&hide_border=true&background=0D1117&stroke=00FFAA&ring=00FFAA&fire=FF00AA&currStreakNum=00FFAA&sideNums=00FFAA&dates=8b949e" alt="Streak Stats" />
   <img src="https://img.shields.io/github/followers/rbkhan007?style=for-the-badge&logo=github&label=Followers&color=00FFAA" alt="Followers" />
   <img src="https://img.shields.io/github/stars/rbkhan007?style=for-the-badge&logo=github&label=Total%20Stars&color=FFD700" alt="Stars" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbkhan007&layout=compact&theme=transparent&hide_border=true&title_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="Top Languages" />
+  <img src="assets/top-languages.svg" alt="Top Languages" />
 </div>
 <!-- STATS:END -->
 
@@ -317,7 +320,7 @@ flowchart LR
 ### 🌍 Visitor Map
 
 <div align="center">
-  <img src="https://visitcount.itsvg.in/?badge=1&icon=3&color=00FFAA&label=Visitors&style=flat-square" alt="Visitor Map" />
+  <img src="https://komarev.com/ghpvc/?username=rbkhan007&color=00FFAA&style=flat-square&label=Visitor%20Map" alt="Visitor Map" />
   <br/><br/>
   <img src="assets/profile-views.svg" alt="Profile Views" />
 </div>
