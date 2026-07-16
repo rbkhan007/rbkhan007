@@ -80,11 +80,11 @@ flowchart TB
   API --> Cache
   GW -->|SSRF-protected fetch| LLM{{"☁️ External LLM Provider"}}:::ext
 
-  classDef client fill:#0D1117,stroke:#58a6ff,stroke-width:2px,color:#58a6ff;
-  classDef node fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
-  classDef sec fill:#101a2b,stroke:#FF6B6B,stroke-width:2px,color:#FF6B6B;
-  classDef db fill:#101a2b,stroke:#2088FF,stroke-width:2px,color:#9ECE6A;
-  classDef ext fill:#1a1b26,stroke:#FF00AA,stroke-width:2px,color:#FF9E64;
+  classDef client stroke:#58a6ff,stroke-width:2px,color:#58a6ff;
+  classDef node stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef sec stroke:#FF6B6B,stroke-width:2px,color:#FF6B6B;
+  classDef db stroke:#2088FF,stroke-width:2px,color:#1f6feb;
+  classDef ext stroke:#FF00AA,stroke-width:2px,color:#FF00AA;
 ```
 
 </div>
@@ -227,8 +227,8 @@ flowchart LR
   Me --> Clip
   Me --> Nexus
 
-  classDef me fill:#0D1117,stroke:#00FFAA,stroke-width:3px,color:#00FFAA;
-  classDef p fill:#101a2b,stroke:#2088FF,stroke-width:2px,color:#9ECE6A;
+  classDef me stroke:#00FFAA,stroke-width:3px,color:#00FFAA;
+  classDef p stroke:#2088FF,stroke-width:2px,color:#1f6feb;
 ```
 
 </div>
@@ -265,9 +265,9 @@ flowchart LR
   F --> G
   I -.->|Telemetry & Rollback| A
 
-  classDef node fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
-  classDef ok fill:#003b2e,stroke:#00FFAA,stroke-width:2px,color:#fff;
-  classDef fail fill:#3b0000,stroke:#FF6B6B,stroke-width:2px,color:#fff;
+  classDef node stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef ok stroke:#00FFAA,stroke-width:2px,color:#1a7f37;
+  classDef fail stroke:#FF6B6B,stroke-width:2px,color:#cf222e;
 ```
 
 </div>
