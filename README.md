@@ -280,6 +280,15 @@ flowchart LR
 
 ## 📊 Skills & Activity
 
+<!-- STATS:START -->
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=rbkhan007&show_icons=true&theme=transparent&hide_border=true&title_color=00FFAA&icon_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=rbkhan007&theme=dark&hide_border=true&background=0D1117&stroke=00FFAA&ring=00FFAA&fire=FF00AA&currStreakNum=00FFAA&sideNums=00FFAA&dates=8b949e" alt="Streak Stats" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rbkhan007&theme=transparent&no-bg=true&no-frame=true&title=Stars,Commits,Repositories,PullRequest,Reviews,Followers" alt="GitHub Trophies" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=rbkhan007&layout=compact&theme=transparent&hide_border=true&title_color=00FFAA&text_color=8b949e&bg_color=0D1117" alt="Top Languages" />
+</div>
+<!-- STATS:END -->
+
 <div align="center">
   <table width="100%">
     <tr>
@@ -299,15 +308,11 @@ flowchart LR
 
 <br/>
 
-<table width="100%">
-  <tr>
-    <td width="50%" align="center"><img height="180" src="assets/streak-stats.svg" alt="Streak Stats" /></td>
-    <td width="50%" align="center"><img src="assets/top-languages.svg" alt="Top Languages" /></td>
-  </tr>
-  <tr>
-    <td colspan="2" align="center"><img width="100%" src="assets/activity-graph.svg" alt="Activity Graph" /></td>
-  </tr>
-</table>
+  <table width="100%">
+    <tr>
+      <td colspan="2" align="center"><img width="100%" src="assets/activity-graph.svg" alt="Activity Graph" /></td>
+    </tr>
+  </table>
 
 <br/>
 
@@ -318,7 +323,7 @@ flowchart LR
 ## 🏆 Achievements
 
 <div align="center">
-  <img src="assets/github-trophies.svg" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=rbkhan007&theme=transparent&no-bg=true&no-frame=true&margin-w=10" alt="GitHub Trophies" />
 </div>
 
 <br/>

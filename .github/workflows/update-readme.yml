@@ -1,0 +1,56 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # daily at midnight UTC
+  workflow_dispatch:      # allow manual run
+  push:
+    paths:
+      - "README.md"
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Update STATS block in README
+        env:
+          USERNAME: rbkhan007
+        run: |
+          node -e '
+            const fs = require("fs");
+            const p = "README.md";
+            let md = fs.readFileSync(p, "utf8");
+            const inner = [
+              "<div align=\"center\">",
+              "  <img src=\"https://github-readme-stats.vercel.app/api?username=" + process.env.USERNAME + "&show_icons=true&theme=transparent&hide_border=true&title_color=00FFAA&icon_color=00FFAA&text_color=8b949e&bg_color=0D1117\" alt=\"GitHub Stats\" />",
+              "  <img src=\"https://github-readme-streak-stats.herokuapp.com/?user=" + process.env.USERNAME + "&theme=dark&hide_border=true&background=0D1117&stroke=00FFAA&ring=00FFAA&fire=FF00AA&currStreakNum=00FFAA&sideNums=00FFAA&dates=8b949e\" alt=\"Streak Stats\" />",
+              "  <img src=\"https://github-profile-trophy.vercel.app/?username=" + process.env.USERNAME + "&theme=transparent&no-bg=true&no-frame=true&title=Stars,Commits,Repositories,PullRequest,Reviews,Followers\" alt=\"GitHub Trophies\" />",
+              "  <img src=\"https://github-readme-stats.vercel.app/api/top-langs/?username=" + process.env.USERNAME + "&layout=compact&theme=transparent&hide_border=true&title_color=00FFAA&text_color=8b949e&bg_color=0D1117\" alt=\"Top Languages\" />",
+              "</div>"
+            ].join("\n");
+            const re = /<!-- STATS:START -->[\s\S]*?<!-- STATS:END -->/;
+            if (!re.test(md)) { console.error("STATS markers not found"); process.exit(1); }
+            md = md.replace(re, "<!-- STATS:START -->\n" + inner + "\n<!-- STATS:END -->");
+            fs.writeFileSync(p, md);
+            console.log("README STATS block refreshed");
+          '
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add README.md
+            git commit -m "chore: auto-update README GitHub stats"
+            git push
+          else
+            echo "No changes to commit"
+          fi
