@@ -64,6 +64,48 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 
 <br/>
 
+## 🧩 System Architecture
+
+<div align="center">
+
+```mermaid
+flowchart TB
+  Client[[🌐 Web / Desktop / Mobile Client]]:::client
+
+  subgraph GW["🌐 API Gateway · OllamoMUI"]
+    Auth[[🔐 PBKDF2 Auth + RBAC]]:::sec
+    API[[⚡ Ollama / OpenAI-compatible API]]:::node
+    Auth --> API
+    API --> RAG[[🧠 RAG Pipeline]]:::node
+  end
+
+  subgraph DATA["🗄️ Data Layer"]
+    PG[("PostgreSQL + pgvector")]:::db
+    TRG[("pg_trgm Search")]:::db
+    Cache[("Redis Cache")]:::db
+  end
+
+  Client -->|HTTPS| Auth
+  RAG --> PG
+  RAG --> TRG
+  API --> Cache
+  GW -->|SSRF-protected fetch| LLM{{"☁️ External LLM Provider"}}:::ext
+
+  classDef client fill:#0D1117,stroke:#58a6ff,stroke-width:2px,color:#58a6ff;
+  classDef node fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef sec fill:#101a2b,stroke:#FF6B6B,stroke-width:2px,color:#FF6B6B;
+  classDef db fill:#101a2b,stroke:#2088FF,stroke-width:2px,color:#9ECE6A;
+  classDef ext fill:#1a1b26,stroke:#FF00AA,stroke-width:2px,color:#FF9E64;
+```
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
 ## 🛠️ Tech Stack
 
 <div align="center">
@@ -93,6 +135,42 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?logo=vercel&logoColor=white&style=for-the-badge)
 ![OAuth](https://img.shields.io/badge/OAuth%202.0-FF6B6B?style=for-the-badge)
+
+</div>
+
+<br/>
+
+### 🗺️ Skills Map
+
+<div align="center">
+
+```mermaid
+mindmap
+  root((Rakibul<br/>Hasan))
+    Frontend
+      Next.js 15
+      React Native
+      TypeScript
+      Tailwind CSS
+      Three.js
+    Backend
+      Python
+      FastAPI
+      PostgreSQL
+      pgvector
+      Redis
+    AI
+      RAG Pipelines
+      LLM Orchestration
+      Technical SEO
+    DevOps Sec
+      Docker
+      CI/CD
+      Nginx
+      RBAC
+      OAuth
+      HSTS
+```
 
 </div>
 
@@ -130,6 +208,80 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 |:---:|:---:|:---:|
 | *AI Analysis · Python* | *Crypto · TS · Prisma* | *Marketplace · AI* |
 | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/SiteSniper-AI) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/Nexus-Crypto-Ventory) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/VeloCommerce-AI) |
+
+<br/>
+
+### 🔗 Project Map
+
+<div align="center">
+
+```mermaid
+flowchart LR
+  Me((Rakibul<br/>Hasan)):::me
+
+  subgraph AI["AI / LLM"]
+    OllamoMUI[OllamoMUI]:::p
+    SiteSniper[SiteSniper-AI]:::p
+    Velo[VeloCommerce-AI]:::p
+  end
+
+  subgraph WEB["Web / Platform"]
+    Grad[GradBridge]:::p
+    Clip[ClippingBD Studio]:::p
+    Nexus[Nexus-Crypto-Ventory]:::p
+  end
+
+  Me --> OllamoMUI
+  Me --> SiteSniper
+  Me --> Velo
+  Me --> Grad
+  Me --> Clip
+  Me --> Nexus
+
+  classDef me fill:#0D1117,stroke:#00FFAA,stroke-width:3px,color:#00FFAA;
+  classDef p fill:#101a2b,stroke:#2088FF,stroke-width:2px,color:#9ECE6A;
+```
+
+</div>
+
+<br/>
+
+---
+
+<br/>
+
+## 🔄 DevOps & CI/CD Pipeline
+
+<div align="center">
+
+```mermaid
+flowchart LR
+  subgraph DEV["👨‍💻 Development"]
+    A([Code Push]):::node
+    B[[GitHub Repository]]:::node
+  end
+
+  subgraph CI["⚙️ CI Pipeline"]
+    C[[GitHub Actions]]:::node --> D{Lint & Test Pass?}
+    D -->|No| E([Notify Developer]):::fail
+    D -->|Yes| F[[Build Docker Image]]:::node
+  end
+
+  subgraph CD["🚀 CD Pipeline"]
+    G[[Push to Registry]]:::node --> H[[Deploy to Vercel / Cloud]]:::node
+    H --> I([Production Ready]):::ok
+  end
+
+  A --> B --> C
+  F --> G
+  I -.->|Telemetry & Rollback| A
+
+  classDef node fill:#0D1117,stroke:#00FFAA,stroke-width:2px,color:#00FFAA;
+  classDef ok fill:#003b2e,stroke:#00FFAA,stroke-width:2px,color:#fff;
+  classDef fail fill:#3b0000,stroke:#FF6B6B,stroke-width:2px,color:#fff;
+```
+
+</div>
 
 <br/>
 
