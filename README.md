@@ -8,11 +8,10 @@
 
   <br/>
 
-  <!-- Availability badge -->
   <a href="mailto:rbkhan00009@gmail.com">
     <img src="https://img.shields.io/badge/STATUS-OPEN%20TO%20WORK-00FFAA?style=for-the-badge&logo=checkmarx&logoColor=white" alt="Open to work" />
   </a>
-  <img src="https://img.shields.io/badge/Remote-🌍%20Worldwide-2088FF?style=for-the-badge" alt="Remote worldwide" />
+  <img src="https://img.shields.io/badge/Remote-%F0%9F%8C%8D%20Worldwide-2088FF?style=for-the-badge" alt="Remote worldwide" />
   <img src="https://img.shields.io/badge/Based-Dhaka,%20BD-FF00AA?style=for-the-badge" alt="Based in Dhaka" />
 
   <br/><br/>
@@ -70,22 +69,25 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 <div align="center">
 
 **Languages & Frontend**
+<br/>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge)
 ![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)
 ![Next.js](https://img.shields.io/badge/Next.js-000000?logo=next.js&logoColor=white&style=for-the-badge)
 ![React Native](https://img.shields.io/badge/React_Native-61DAFB?logo=react&logoColor=black&style=for-the-badge)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwind-css&logoColor=white&style=for-the-badge)
 ![Three.js](https://img.shields.io/badge/Three.js-black?logo=three.js&logoColor=white&style=for-the-badge)
-
+<br/><br/>
 **Backend, Data & AI**
+<br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=for-the-badge)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?logo=postgresql&logoColor=white&style=for-the-badge)
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?logo=supabase&logoColor=white&style=for-the-badge)
 ![Prisma](https://img.shields.io/badge/Prisma-3982CE?logo=prisma&logoColor=white&style=for-the-badge)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?logo=redis&logoColor=white&style=for-the-badge)
 ![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=for-the-badge)
-
+<br/><br/>
 **DevOps & Security**
+<br/>
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=for-the-badge)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions&logoColor=white&style=for-the-badge)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?logo=nginx&logoColor=white&style=for-the-badge)
@@ -102,30 +104,12 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 
 ## 💼 Experience
 
-<table width="100%">
-  <tr>
-    <td width="50%" valign="top" style="border:1px solid #30363d; border-radius:10px; padding:16px;">
-
-**🚀 Founder & Lead Developer — OllamoMUI**
-<sub><i>2025 — Present</i></sub>
-
-- Built an **AI gateway** emulating Ollama/OpenAI APIs with **RAG** (pgvector / pg_trgm)
-- Shipped **multi-platform clients** (Web, Desktop, Mobile) on a single backend
-- Enforced enterprise security: **PBKDF2 auth, SSRF protection, audit logging**
-
-    </td>
-    <td width="50%" valign="top" style="border:1px solid #30363d; border-radius:10px; padding:16px;">
-
-**💻 Full-Stack Developer — Freelance**
-<sub><i>2024 — Present</i></sub>
-
-- Delivered **production web apps & AI integrations** for global clients
-- Developed **RESTful services**, real-time dashboards, and secure auth flows
-- Integrated LLM pipelines, RAG search, and payment/automation systems
-
-    </td>
-  </tr>
-</table>
+| 🚀 Founder & Lead Developer — OllamoMUI | 💻 Full-Stack Developer — Freelance |
+|:---|:---|
+| *2025 — Present* | *2024 — Present* |
+| • Built an **AI gateway** emulating Ollama/OpenAI APIs with **RAG** (pgvector / pg_trgm) | • Delivered **production web apps & AI integrations** for global clients |
+| • Shipped **multi-platform clients** (Web, Desktop, Mobile) on a single backend | • Developed **RESTful services**, real-time dashboards, and secure auth flows |
+| • Enforced enterprise security: **PBKDF2 auth, SSRF protection, audit logging** | • Integrated LLM pipelines, RAG search, and payment/automation systems |
 
 <br/>
 
@@ -135,63 +119,17 @@ A **results-driven Full-Stack Developer** who ships production-grade software fr
 
 ## 🚀 Featured Projects
 
-<table align="center" width="100%">
-  <tr>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
+| 🤖 OllamoMUI | 🎓 GradBridge | 🖼️ ClippingBD Studio |
+|:---:|:---:|:---:|
+| *AI Gateway · FastAPI · pgvector* | *Education · Next.js · Supabase* | *Studio Platform · Vercel* |
+| [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/OllamoMUI) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/GradBridge) [![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://grad-bridge-beta.vercel.app/) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/ClippingBD-Studio) [![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://clippingbdstudio.vercel.app/) |
 
-**🤖 OllamoMUI**
-<sub>AI Gateway · FastAPI · pgvector</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/OllamoMUI)
+<br/>
 
-    </td>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
-
-**🎓 GradBridge**
-<sub>Education · Next.js · Supabase</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/GradBridge)
-[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://grad-bridge-beta.vercel.app/)
-
-    </td>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
-
-**🖼️ ClippingBD Studio**
-<sub>Studio Platform · Vercel</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/ClippingBD-Studio)
-[![Live](https://img.shields.io/badge/Live-Site-00FFAA?style=flat-square)](https://clippingbdstudio.vercel.app/)
-
-    </td>
-  </tr>
-  <tr><td colspan="3" height="12"></td></tr>
-  <tr>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
-
-**🎯 SiteSniper-AI**
-<sub>AI Analysis · Python</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/SiteSniper-AI)
-
-    </td>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
-
-**🚀 Nexus-Crypto-Ventory**
-<sub>Crypto · TS · Prisma</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/Nexus-Crypto-Ventory)
-
-    </td>
-    <td align="center" width="33%" style="border:1px solid #30363d; border-radius:10px; padding:14px;">
-
-**🛍️ VeloCommerce-AI**
-<sub>Marketplace · AI</sub>
-<br/><br/>
-[![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/VeloCommerce-AI)
-
-    </td>
-  </tr>
-</table>
+| 🎯 SiteSniper-AI | 🚀 Nexus-Crypto-Ventory | 🛍️ VeloCommerce-AI |
+|:---:|:---:|:---:|
+| *AI Analysis · Python* | *Crypto · TS · Prisma* | *Marketplace · AI* |
+| [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/SiteSniper-AI) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/Nexus-Crypto-Ventory) | [![Code](https://img.shields.io/badge/Code-GitHub-181717?style=flat-square&logo=github)](https://github.com/rbkhan007/VeloCommerce-AI) |
 
 <br/>
 
