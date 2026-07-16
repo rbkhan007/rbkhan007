@@ -11,10 +11,6 @@
   <img src="https://img.shields.io/badge/Remote-%F0%9F%8C%8D%20Worldwide-2088FF?style=for-the-badge" alt="Remote worldwide" />
   <img src="https://img.shields.io/badge/Based-Dhaka,%20BD-FF00AA?style=for-the-badge" alt="Based in Dhaka" />
 
-  <br/><br/>
-
-  <img src="assets/terminal-intro.svg" alt="Terminal Intro" width="600" />
-
 </div>
 
 <br/>
